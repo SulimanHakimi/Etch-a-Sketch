@@ -1,4 +1,3 @@
-let color = "black";
 document.addEventListener("DOMContentLoaded", function () {
   creatContainer(16);
 
@@ -7,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     creatContainer(size);
   });
 });
-function rest(){
-}
+function rest() {}
+let color = "black";
 function creatContainer(size) {
   let container = document.querySelector(".container");
   container.style.gridTemplateRows = `repeat(${size},1fr)`;
@@ -27,13 +26,14 @@ function getSize() {
 }
 function colorGene() {
   if (color == "random") {
-    this.style.backgroundColor = `#${Math.floor(Math.random()*16777215).toString(16)}`
+    this.style.backgroundColor = `#${Math.floor(
+      Math.random() * 16777215
+    ).toString(16)}`;
   } else {
     this.style.backgroundColor = "black";
   }
-  i
+  i;
 }
 function setColor(colorCh) {
   color = colorCh;
 }
-
