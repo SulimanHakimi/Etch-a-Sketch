@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Etch_a_Sketch</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <body>
+      <div class="header">
+        <div class="h-t">
+          <p>select the size</p>
+          <button id="getSize">select</button>
+        </div>
+        <div class="h-b">
+          <button class="black" onclick="setColor('black')">Black</button>
+          <button class="rest" onclick="location.reload()">rest</button>
+          <button class="green" onclick="setColor('random')">Random</button>
+        </div>
+      </div>
+      <div>
+        <p id="message"></p>
+        <div class="container"></div>
+      </div>
+    </body>
   </head>
-  <body>
-    <div>
-      <div class="top-button">
-        <p></p>
-        <button></button>
-      </div>
-      <div class="conteniar"></div>
-      <div class="footer-button">
-        <button>Black</button>
-        <button>Random</button>
-        <button id="rest">Rest</button>
-      </div>
-    </div>
-    <script src="./app.js"></script>
-  </body>
 </html>

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+* {
+  font-family: "Viga", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(125, 146, 134, 0.142);
+}
+p {
+  font-size: 25px;
+}
+button {
+  border: none;
+  cursor: pointer;
+  padding: 7px 15px;
+  border-radius: 6px;
+  font-size: 18px;
+  color: white;
+}
+#getSize {
+  background-color: green;
+  height: fit-content;
+}
+.black {
+  background-color: black;
+}
+.green {
+  background-color: blue;
+}
+.rest{
+  background-color: red;
+}
+.h-t {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.h-b{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  margin-right: 50px;
+}
+.container {
+  width: 600px;
+  height: 500px;
+  display: grid;
+  cursor: pointer;
+  box-shadow: 5px 5px 25px rgb(180, 180, 180);
+}
+.container div{
+  border: 1px solid rgb(184, 184, 184) ;
+}
